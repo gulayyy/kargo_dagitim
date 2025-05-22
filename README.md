@@ -1,16 +1,34 @@
-# kargo_yonlendirme_simulasyonu
+# Kargo Yönlendirme Uygulaması
 
-A new Flutter project.
+![Uygulama Logosu](assets/logo.png)
 
-## Getting Started
+## 📋 Proje Hakkında
 
-This project is a starting point for a Flutter application.
+Kargo Yönlendirme Uygulaması, Türkiye'deki şehirler arasında en uygun kargo rotalarını hesaplamak için geliştirilmiş bir mobil uygulamadır. Uygulama, gerçek coğrafi koordinatlar kullanarak şehirler arasındaki mesafeleri hesaplar ve farklı algoritmaları kullanarak en uygun rotayı belirler.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Özellikler
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Gerçek Türkiye Şehirleri**: Türkiye'nin 81 ilinin gerçek koordinatlarıyla çalışır
+- **Otomatik Mesafe Hesaplama**: Şehirler arasındaki mesafeleri coğrafi koordinatlar kullanarak otomatik hesaplar
+- **Çoklu Rota Algoritmaları**:
+  - En Hızlı Rota (BFS)
+  - Alternatif Rota (DFS)
+  - En Kısa Mesafe (UCS)
+- **Harita Görselleştirmesi**: Bulunan rotaları harita üzerinde görselleştirir
+- **Şehir Yönetimi**: Şehir ekleme, listeleme ve silme özellikleri
+- **Rota Geçmişi**: Önceki rota hesaplamalarını kaydeder ve görüntüler
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Kurulum
+
+### Gereksinimler
+
+- Flutter SDK (2.0.0 veya üzeri)
+- Dart SDK (2.12.0 veya üzeri)
+- MongoDB hesabı
+
+### Adımlar
+
+1. Projeyi klonlayın:
+   ```bash
+   git clone https://github.com/kullanici/kargo-yonlendirme.git
+   cd kargo-yonlendirme
