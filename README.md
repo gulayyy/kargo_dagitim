@@ -1,7 +1,5 @@
 # Kargo Yönlendirme Uygulaması
 
-![Uygulama Logosu](assets/logo.png)
-
 ## 📋 Proje Hakkında
 
 Kargo Yönlendirme Uygulaması, Türkiye'deki şehirler arasında en uygun kargo rotalarını hesaplamak için geliştirilmiş bir mobil uygulamadır. Uygulama, gerçek coğrafi koordinatlar kullanarak şehirler arasındaki mesafeleri hesaplar ve farklı algoritmaları kullanarak en uygun rotayı belirler.
